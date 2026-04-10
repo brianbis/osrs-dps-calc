@@ -1139,7 +1139,7 @@ export default class PlayerVsNPCCalc extends BaseCalc {
     }
 
     if (minMax[0] > minMax[1]) {
-      minMax[0] = minMax[1];
+      minMax[1] = minMax[0];
     }
 
     // some cursed (literally, cursed amulet of magic) stuff throws this off
